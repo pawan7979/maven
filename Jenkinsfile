@@ -1,7 +1,8 @@
 pipeline {
    
-       agent any
-       
+   agent {
+      label "pavan"
+   }
     stages {
         stage('SCM') {
             steps {
